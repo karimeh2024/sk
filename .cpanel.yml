@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/karimeh/repositories/sk/
+    - /bin/cp -R images $DEPLOYPATH
